@@ -4,8 +4,8 @@ var mysql      = require('mysql');
 var conn = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
-  password : 'dhkswn0511',
-  database : 'mydb'
+  password : '',
+  database : ''
 });
 var app = express();
 app.set('view engine', 'pug');
